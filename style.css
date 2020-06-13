@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    border: 2px double;
 }
 
 .monospace {
@@ -19,7 +18,16 @@ body {
   height:  98%;
   margin: 1%;
   box-sizing: border-box;
+  z-index: -1;
+}
 
 h1 {
     color: #FFB000;
+}
+
+h1:hover {
+    background-color: #FFB000;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
 }
