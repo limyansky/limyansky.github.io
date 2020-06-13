@@ -8,6 +8,13 @@ body {
   text-align: center;
 }
 
+.monopara {
+  font-family: Courier, "Lucida Console", monospace;
+  color: #FFB000;
+  text-align: initial;
+  margin: 2%;
+}
+
 .border {
   position: fixed;
   top: 0;
