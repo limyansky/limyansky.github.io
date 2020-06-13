@@ -6,6 +6,7 @@ body {
 .monospace {
   font-family: Courier, "Lucida Console", monospace;
   color: #FFB000;
+  text-align: center;
 }
 
 .border {
