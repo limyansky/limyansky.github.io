@@ -15,6 +15,19 @@ body {
   margin: 2%;
 }
 
+.monolink {
+  font-family: Courier, "Lucida Console", monospace;
+  color: #FFB000;
+  text-align: initial;
+  margin: 2%;
+  text-decoration: none
+}
+
+.monolink:hover {
+    background-color: #FFB000;
+    color: black;
+}
+
 .border {
   position: fixed;
   top: 0;
@@ -28,13 +41,18 @@ body {
   z-index: -1;
 }
 
-h1 {
-    color: #FFB000;
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #FFB000;    }
+    49%{    color: #FFB000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
 }
 
-h1:hover {
-    background-color: #FFB000;
-    color: black;
-    margin-left: 5%;
-    margin-right: 5%;
+
+h1 {
+    color: #FFB000;
 }
